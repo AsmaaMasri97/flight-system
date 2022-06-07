@@ -1,0 +1,30 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+.backgroundheader{
+    height: 60vh;
+    width: 100%;
+    background-image: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    margin-bottom: 1rem;
+}
+.homecontainer{
+    margin-top: 5vh;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    background-color: white;
+    border-radius: 2rem;
+    text-align: center;
+    align-items: center;
+    opacity: 0.1;
+}
+@media (max-width: 600px) {
+    .backgroundheader{
+        height: 100vh;
+        background-image: url(/background.jpg);
+    }
+}
